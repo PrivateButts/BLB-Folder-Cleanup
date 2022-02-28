@@ -15,11 +15,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install Pipenv
-      run: python3 -m pip install pipenv
+    # - name: Install Pipenv
+    #   run: python3 -m pip install pipenv
 
-    - name: Generate Requirements
-      run: pipenv lock -r --keep-outdated > requirements.txt
+    # - name: Generate Requirements
+    #   run: pipenv lock -r --keep-outdated > requirements.txt
 
     - name: Package Application
       uses: JackMcKew/pyinstaller-action-windows@main
