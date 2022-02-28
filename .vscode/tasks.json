@@ -6,7 +6,7 @@
         {
             "label": "Build UI Tool",
             "type": "shell",
-            "command": "pipenv run pyinstaller ui.py",
+            "command": "pipenv run pyinstaller --onefile ui.py",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
