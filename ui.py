@@ -5,7 +5,7 @@ from cleaner.cleaner import prep, clean
 
 layout = [
     [sg.Text('Base directory to clean:'), sg.InputText(), sg.FolderBrowse()],
-    [sg.Text('Extensions to clean:'), sg.InputText()],
+    [sg.Text('Folder name to clean:'), sg.InputText()],
     [sg.Button('Scan'), sg.Button('Cancel')]
 ]
 
